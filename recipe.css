@@ -9,9 +9,10 @@ body { background-color: #8FBC8F;
 p {font-family: American Typewriter, New Century Schoolbook;
 			font-size: 1.5em; 
 				width: 50%; }
-h1 {background-color: #2F4F4F }
-	h2 {background-color: #597272}
+h1 {background-color: #2F4F4F; margin-left: auto; margin-right: auto; }
+	h2 {background-color: #597272; margin-left: auto; margin-right: auto;}
 		h3, h4, h5 {background-color: #788d8d}
+			h1, h2 { text-align: center;}
 
 h1, h2, h3, h4, h5 {border: 2px ridge #330000; 
 			border-radius: 10px;
@@ -20,3 +21,16 @@ h1, h2, h3, h4, h5 {border: 2px ridge #330000;
 li {font-size: 1.4em; 
 	font-family: Copperplate, sans-sarif;
 		}
+#good {width: 80%;
+	margin-left: auto; 
+	margin-right: auto;}
+nav {float: left;
+width: 50%;}
+main {float: right;
+width: 50%;}
+footer {overflow: auto;
+width: 100%;}
+#plated {float: right;}
+	footer a:link {color: #FFFFFF; }
+	footer a:visited { color: #EAEAEA; }
+	footer a:hover {color: #000066; }
