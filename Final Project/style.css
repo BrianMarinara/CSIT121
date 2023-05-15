@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 24px; 
+}
+body {
+  background: linear-gradient(to bottom, #ff0000, #ff9999);
+}
+
+p {font-family: American Typewriter, New Century Schoolbook;
+      font-size: .75 em;  }
+
+nav {border: 2px solid;
+        width: 25%; 
+          background-color: #ffffff;}
