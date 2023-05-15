@@ -1,0 +1,76 @@
+body { background-color: #8FBC8F;
+	color: #FFEBCD;
+	font-family: Optima, New Century Schoolbook, American Typewriter; 
+		margin-left: auto; 
+			margin-right: auto; 
+				width: 70%;
+					background-image: linear-gradient(to top,
+						#2F4F4F , #8FBC8F); }
+p {font-family: American Typewriter, New Century Schoolbook;
+			font-size: 1.5em; 
+				width: 50%; }
+h1 {background-color: #2F4F4F; margin-left: auto; margin-right: auto; }
+	h2 {background-color: #597272; margin-left: auto; margin-right: auto;}
+		h3, h4, h5 {background-color: #788d8d}
+			h1, h2 { text-align: center;}
+
+h1, h2, h3, h4, h5 {border: 2px ridge #330000; 
+			border-radius: 10px;
+			width: 25em;}
+		h4, h5 {font-size: 1.25em;}
+li {font-size: 1.4em; 
+	font-family: Copperplate, sans-sarif;
+		}
+#good {width: 80%;
+	margin-left: auto; 
+	margin-right: auto;}
+nav {float: left;
+width: 50%;}
+main {float: right;
+width: 50%;}
+footer {overflow: auto;
+width: 100%;}
+#plated {float: right;}
+	footer a:link {color: #FFFFFF; }
+	footer a:visited { color: #EAEAEA; }
+	footer a:hover {color: #000066;}
+	@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  
+  nav, main {
+    float: none;
+    width: 100%;
+ }
+  
+  h1, h2, h3, h4, h5 {
+    width: 100%;
+  }
+  
+  li {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1.2em;
+    width: 100%;
+  
+  }
+
+  footer {
+    width: 100%;
+  }
+  
+  #plated {
+    float: none;
+  }
+}
+
+form { background-color:#8FBC8F;
+
+				font-family: Optima, New Century Schoolbook, American Typewriter;
+					  width: 400px; padding: 10px;
+					   border: 2px ridge #2F4F4F; 
+								border-radius: 10px;
+										width: 25em; }
